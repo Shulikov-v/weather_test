@@ -1,0 +1,108 @@
+.weather-card {
+    width: 350px;
+    height: 257px;
+    background: #FFF1FE 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.weather-card--header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 79px;
+}
+
+.weather-card--header-title {
+    text-align: left;
+    font: normal normal normal 16px/23px Jost;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.weather-card--header-date {
+    text-align: left;
+    font: normal normal 300 18px/26px Jost;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.weather-card--header-weather {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.weather-card--chart {
+    flex-grow: 1;
+}
+
+.weather-card--info {
+    display: flex;
+}
+
+.weather-card--info-left {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-card--info-temperature {
+    display: flex;
+}
+
+.weather-card--info-temperature-value {
+    display: flex;
+    font: normal normal normal 44px/64px Jost;
+}
+
+.weather-card--info-temperature-switcher {
+    display: flex;
+    font: normal normal normal 22px/32px Jost;
+    color: #8D8D8D;
+}
+
+.weather-card--info-temperature-switcher>.active {
+    color: #000000;
+}
+
+.weather-card--info-temperature-switcher>span {
+    cursor: pointer;
+}
+
+.weather-card--info-temperature-feels {
+    display: flex;
+    font: normal normal normal 13px/19px Jost;
+    color: #C5C5C5;
+}
+
+.weather-card--info-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font: normal normal normal 12px/18px Jost;
+}
+
+.weather-card--info-right>div {
+    height: 18px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.weather-card--info-right span {
+    color: #459DE9;
+}
+
+.recharts-cartesian-axis-ticks {
+    color: #C5C5C5;
+    font: normal normal normal 8px/12px Jost;
+}
